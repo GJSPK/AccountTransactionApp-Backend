@@ -1,0 +1,48 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "number": "123456",
+      "currentbalance": 1850.00,
+      "overdraftlimit": 0
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "number": "654321",
+      "currentbalance": 2500.00,
+      "overdraftlimit": 500
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Grocery Shopping",
+      "debitcredit": "debit",
+      "amount": 150.00,
+      "accountid": 1
+    },
+    {
+      "id": 2,
+      "description": "Salary",
+      "debitcredit": "credit",
+      "amount": 2000.00,
+      "accountid": 1
+    },
+    {
+      "id": 3,
+      "description": "Rent Payment",
+      "debitcredit": "debit",
+      "amount": 500.00,
+      "accountid": 2
+    },
+    {
+      "id": 4,
+      "description": "Freelance Work",
+      "debitcredit": "credit",
+      "amount": 3000.00,
+      "accountid": 2
+    }
+  ]
+}
